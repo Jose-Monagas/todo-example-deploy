@@ -10,3 +10,18 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+h1 {
+  animation: neon-glow 1s ease-in-out infinite alternate;
+  font-size: 2vw;
+}
+@keyframes neon-glow {
+  0% {
+    color: #ff00cc;
+    text-shadow: 0 0 5px #ff00cc;
+  }
+  100% {
+    color: #3333ff;
+    text-shadow: 0 0 5px #3333ff;
+  }
+}
